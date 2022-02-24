@@ -1,0 +1,140 @@
+header {
+
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+
+}
+
+header h1 {
+
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+body {
+
+    background-color: beige;
+}
+
+.contenido {
+
+    padding: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+    background-color: white;
+}
+
+
+.contenido img {
+
+    margin: 10px;
+    ;
+}
+
+.logo {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    display: block;
+    text-indent: -9999px;
+    cursor: default;
+}
+
+.footer {
+
+    padding: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+textarea {
+
+    min-width: 200px;
+    min-height: 30px;
+    max-width: 600px;
+    max-height: 100px;
+}
+
+input[type=radio],
+[type=checkbox] {
+
+    margin-left: 30px;
+}
+
+.bloque {
+
+    padding: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.genero {
+
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.genero .generoTexto {
+
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(0,0,0,0.7);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.genero:hover .generoTexto {
+
+    visibility: visible;
+
+}
+
+
+.palabras1 {
+
+    display: inline-block;
+    padding: 7px;
+    color: black;
+    background: violet;
+    border: 2px solid blueviolet;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.palabras2 {
+
+    display: inline-block;
+    padding: 7px;
+    color: white;
+    background: orange;
+    border: 2px solid orangered;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.palabrasP {
+
+    display: inline-block;
+    padding: 7px;
+    color: black;
+    background: red;
+    border: 2px solid black;
+    margin: 5px;
+    margin-top: 10px;
+}
